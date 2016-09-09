@@ -1,0 +1,46 @@
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.justify-content-right{
+  justify-content: flex-start;
+}
+
+.center-text{
+  width: 100%;
+  text-align: center;
+}
+
+.margin-top-10{
+  margin-top: 10px;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.width100p{
+  width: 100%;
+}
+
+.height90{
+  height: 90px;
+}
+
+.logo{
+  background: url("app/shared/blackonwhite2.png") center center no-repeat;
+  &.big{
+    height: 490px;
+    background-size: 360px;
+  }
+  &.small{
+    height: 60px;
+    width: 60px;
+    background-size: 60px;
+  }
+}

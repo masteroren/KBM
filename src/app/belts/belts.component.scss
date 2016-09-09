@@ -1,0 +1,30 @@
+.belt-row{
+  margin-bottom: 30px;
+}
+
+.belt{
+  height: 100px;
+  width: 100px;
+  background-size: 100px !important;
+  &.white{
+    background: transparent url('app/belts/shared/white_belt.png') center center no-repeat;
+  }
+  &.yellow{
+    background: transparent url('app/belts/shared/yellow_belt.png') center center no-repeat;
+  }
+  &.orange{
+    background: transparent url('app/belts/shared/orange_belt.png') center center no-repeat;
+  }
+  &.green{
+    background: transparent url('app/belts/shared/green_belt.png') center center no-repeat;
+  }
+  &.blue{
+    background: transparent url('app/belts/shared/blue_belt.png') center center no-repeat;
+  }
+  &.brown{
+    background: transparent url('app/belts/shared/brown_belt.png') center center no-repeat;
+  }
+  &.black{
+    background: transparent url('app/belts/shared/black_belt.png') center center no-repeat;
+  }
+}

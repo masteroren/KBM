@@ -1,0 +1,1 @@
+export * from './belts.component';

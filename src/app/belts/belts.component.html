@@ -1,0 +1,16 @@
+<app-top></app-top>
+<div class="belt-row flex">
+  <a *ngFor="let i of [0,1,2]" [routerLink]="['/silabus', this.belts[i].name]">
+    <div class="belt {{ this.belts[i].class }}"></div>
+  </a>
+</div>
+<div class="belt-row flex">
+  <a *ngFor="let i of [3,4,5]" [routerLink]="['/silabus', this.belts[i].name]">
+    <div class="belt {{ this.belts[i].class }}"></div>
+  </a>
+</div>
+<div class="belt-row flex">
+  <a *ngFor="let i of [6]" [routerLink]="['/silabus', this.belts[i].name]">
+    <div class="belt {{ this.belts[i].class }}"></div>
+  </a>
+</div>
