@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BeltsService } from './shared/services/belts.service';
+import { BeltsService } from '../shared/services/belts.service';
 import { TopComponent } from '../top/top.component';
 
 @Component({

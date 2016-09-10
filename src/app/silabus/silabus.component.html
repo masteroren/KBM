@@ -1,0 +1,12 @@
+<app-top></app-top>
+
+<div *ngFor="let silabus of belt.silabus" class="silabus-subject">
+  <div class="silabus-subject-text">{{ silabus.subject }}</div>
+  <div *ngFor="let content of silabus.content" class="">
+    <div class="silabus-content">{{ content }}</div>
+  </div>
+</div>
+
+<div>
+  <a [routerLink]="['/lesson', id]">Lesson</a>
+</div>

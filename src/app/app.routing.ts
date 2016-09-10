@@ -2,7 +2,7 @@ import { provideRouter, RouterConfig } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { BeltsComponent } from './belts/belts.component';
 import { BeltsRoutes } from './belts/belts.routes';
-import { SilabusRoutes } from './belts/silabus/silabus.routes';
+import { SilabusRoutes } from './silabus/silabus.routes';
 
 export const routes: RouterConfig = [
   {

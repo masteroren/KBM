@@ -1,48 +1,54 @@
-import { Belt } from './shared/models/belt';
-import { Silabus } from './shared/models/silabus';
+import { Belt } from '../shared/models/belt';
 
 export const BELTS: Belt[] = [
       {
         id: 0,
         name: 'white-belt',
         class: 'white',
-        silabus: {
-          id: 0
-        }
+        silabus: [
+          {
+            'subject':'נימוס',
+            'content':[
+              'בבקשה בהתחלה',
+              'תודה בסיום',
+              'סליחה'
+            ]
+          }
+        ]
       },
       {
         id: 1,
         name: 'yellow-belt',
         class: 'yellow',
-        silabus: Silabus
+        silabus: {}
       },
       {
         id: 2,
         name: 'orange-belt',
         class: 'orange',
-        silabus: Silabus
+        silabus: {}
       },
       {
         id: 3,
         name: 'green-belt',
         class: 'green',
-        silabus: Silabus
+        silabus: {}
       },
       {
         id: 4,
         name: 'blue-belt',
         class: 'blue',
-        silabus: Silabus
+        silabus: {}
       },{
         id: 5,
         name: 'brown-belt',
         class: 'brown',
-        silabus: Silabus
+        silabus: {}
       },
       {
         id: 6,
         name: 'black-belt',
         class: 'black',
-        silabus: Silabus
+        silabus: {}
       }
 ]

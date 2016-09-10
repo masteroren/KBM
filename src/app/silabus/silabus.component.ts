@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ROUTER_DIRECTIVES, ActivatedRoute } from '@angular/router';
-import { TopComponent } from '../../top/top.component';
+import { TopComponent } from '../top/top.component';
 import { BeltsService } from '../shared/services/belts.service';
-import { Belt } from '../shared/models/belt';
 
 @Component({
   moduleId: module.id,
@@ -14,7 +13,7 @@ import { Belt } from '../shared/models/belt';
 })
 export class SilabusComponent implements OnInit {
   private sub: any;
-  private belt: Belt;
+  private belt: any;
   private id: string;
 
   constructor( private beltsService: BeltsService,  private route: ActivatedRoute ) { }
